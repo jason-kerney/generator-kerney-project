@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Chris Stead",
+      "authorEmail": "cmstead@gmail.com",
+      "authorUrl": "http://www.chrisstead.com"
+    }
+  }
+}
