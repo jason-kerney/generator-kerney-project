@@ -12,4 +12,4 @@ const config = {
     errorOnModuleDNE: true
 };
 
-module.exports = require('dject')(config);
+module.exports = require('dject').new(config);

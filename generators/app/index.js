@@ -60,6 +60,11 @@ module.exports = class extends Generator {
                 isTemplate: true
             },
             {
+                templatePath: joinPath(testPathTokens, 'testEnvironment.js'),
+                filePath: joinPath(testPathTokens, 'testEnvironment.js'),
+                isTemplate: true
+            },
+            {
                 templatePath: 'index.template.js',
                 filePath: 'index.js',
                 isTemplate: true
