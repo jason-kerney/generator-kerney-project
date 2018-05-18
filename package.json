@@ -1,12 +1,12 @@
 {
   "name": "generator-kerney-project",
-  "version": "2.0.0",
+  "version": "0.0.0",
   "description": "Project bootstrapper for quick startup",
   "homepage": "",
   "author": {
-    "name": "Chris Stead",
-    "email": "cmstead@gmail.com",
-    "url": "http://www.chrisstead.com"
+    "name": "Jason Kerney",
+    "email": "jason@teamkerney.com",
+    "url": "http://www.teamkerney.com"
   },
   "files": [
     "generators"
