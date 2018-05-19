@@ -7,19 +7,19 @@ First, install [Yeoman](http://yeoman.io) and generator-projects using [npm](htt
 
 ```bash
 npm install -g yo
-npm install generator-signet-project -g
+npm install generator-kerney-project -g
 ```
 
 Then generate your new project:
 
 ```bash
-yo signet-project
+yo kerney-project
 ```
 
 Or generate a new module in an existing project:
 
 ```bash
-yo signet-project:module
+yo kerney-project:module
 ```
 
 ## Getting To Know Yeoman
@@ -29,9 +29,12 @@ yo signet-project:module
  * Yeoman can be too opinionated at times but is easily convinced not to be.
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
+## Special Thanks to 
+[Chris Stead](http://www.chrisstead.com)
+
 ## License
 
-MPL-2.0 © [Chris Stead](http://www.chrisstead.com)
+MIT
 
 
 [npm-image]: https://badge.fury.io/js/generator-projects.svg
