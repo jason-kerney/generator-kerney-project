@@ -33,6 +33,7 @@
     "grunt-eslint": "^22.0.0",
     "grunt-exec": "^3.0.0",
     "grunt-mocha-istanbul": "^5.0.2",
+    "grunt-contrib-clean": "^2.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^6.2.0",
     "stubcontractor": "^0.5.3",
