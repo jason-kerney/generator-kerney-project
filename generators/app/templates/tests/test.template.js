@@ -4,7 +4,7 @@ describe('<%= projectName %>', function () {
     const applicationEnvironment = require('../applicationEnvironment');
     const testEnvironment = require('./testEnvironment');
 
-    testEnvironment.build('approvalResultFactory')();
+    testEnvironment.build('approvalsConfigFactory');
 
     const sinon = testEnvironment.build('sinon');
     const { asInformationString } = testEnvironment.build('objectInformation');

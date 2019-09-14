@@ -1,10 +1,10 @@
 'use strict';
 
 describe('<%= fileName %>', function () {
-    const applicationEnvironment = require('../app/applicationEnvironment');
+    const applicationEnvironment = require('../applicationEnvironment');
     const testEnvironment = require('./testEnvironment');
 
-    testEnvironment.build('approvalsConfigFactory')();
+    testEnvironment.build('approvalsConfigFactory');
 
     const { asInformationString } = testEnvironment.build('objectInformation');
     const { assert } = testEnvironment.build('chai');
