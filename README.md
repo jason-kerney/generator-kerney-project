@@ -22,6 +22,12 @@ Or generate a new module in an existing project:
 yo kerney-project:module
 ```
 
+Or generate a new test for an existing module in an existing project:
+
+```bash
+yo kerney-project:test
+```
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
