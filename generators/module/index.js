@@ -36,7 +36,7 @@ module.exports = class extends Generator {
             fileVarName: fileVarName
         };
 
-        let testPathTokens = ['test'];
+        let testPathTokens = ['tests'];
         let binPathTokens = ['app']
 
         const copyDefinitions = [

@@ -50,7 +50,8 @@ module.exports = class extends Generator {
         };
 
         let binPathTokens = ['app'];
-        let testPathTokens = ['test'];
+        let testPathTokens = ['tests'];
+        let typePathTokens = ['types'];
         let testUtilsPathTokens = testPathTokens.concat(['test-utils']);
 
         const copyDefinitions = [
@@ -115,14 +116,14 @@ module.exports = class extends Generator {
                 isTemplate: false
             },
             {
-                templatePath: 'gulpfile.template.js',
-                filePath: 'gulpfile.js',
-                isTemplate: true
+                templatePath: 'GruntFile.template.js',
+                filePath: 'GruntFile.js',
+                isTemplate: false
 
             },
             {
-                templatePath: joinPath(binPathTokens, 'types' + path.sep + 'types.js'),
-                filePath: joinPath(binPathTokens, 'types' + path.sep + 'types.js'),
+                templatePath: joinPath(typePathTokens, 'types.js'),
+                filePath: joinPath(typePathTokens, 'types.js'),
                 isTemplate: false
             },
             {

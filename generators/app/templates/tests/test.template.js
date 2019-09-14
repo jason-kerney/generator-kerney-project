@@ -17,7 +17,7 @@ describe('<%= projectName %>', function () {
     });
 
     it('Runs Index', function() {
-        const main = require('./test-utils/approvals-config');
+        const main = require('../index');
         //Do something
         //main();
         assert.isOk(false);
