@@ -13,7 +13,6 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
     "yeoman-generator"
   ],
   "devDependencies": {
@@ -32,6 +31,6 @@
     "testEnvironment": "node"
   },
   "scripts": {},
-  "repository": "cmstead/generator-signet-project",
-  "license": "MPL-2.0"
+  "repository": "jason-kerney/generator-kerney-project",
+  "license": "MIT"
 }
