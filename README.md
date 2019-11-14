@@ -28,6 +28,15 @@ Or generate a new test for an existing module in an existing project:
 yo kerney-project:test
 ```
 
+## Note on generated project
+The generated project depends on a globally installed version of [grunt](https://www.npmjs.com/package/grunt)'s command line interface. This is installed by:
+
+```bash
+npm install -g grunt-cli
+```
+
+
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
